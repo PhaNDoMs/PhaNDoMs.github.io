@@ -5,18 +5,20 @@ title: Posts
   <div id="article">
   <h1>Posts</h1>
   <ul class="posts">	
-	<li>
 	{% for category in site.categories %}
 	{% capture category_name %}{{ category | first }}{% endcapture %}
-      <li>
-        <span>
-          <h3> {{ category_name }} </h3>
-		  {% for post in site.categories[category_name] %}
-		  <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time>
-		  {% endfor %}
-        </span>
-      </li>
+	<li>
+		<span>
+			<h3> {{ category_name }} </h3>
+		</span>
 	</li>
+		{% for post in site.categories[category_name] %}
+		<li>
+			<span>
+				<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time>
+			</span>
+		</li>
+		{% endfor %}   
 	{% endfor %}
-	 </ul>
+	</ul>
 </div>
