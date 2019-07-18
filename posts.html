@@ -12,7 +12,7 @@ title: All Posts
         <span>
           <h3> {{ category_name }} </h3>
 		  {% for post in site.categories[category_name] %}
-		  <li><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time></span></span></li>
+		  <li><span><h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time></span></span></li>
 		  {% endfor %}
         </span>
       </li>
@@ -21,7 +21,7 @@ title: All Posts
 	<h2>By Date</h2>
   
     {% for post in site.posts %}
-    <li><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time></span></span></li>
+    <li><span><h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time></span></span></li>
     {% endfor %}
   </ul>
 </div>
