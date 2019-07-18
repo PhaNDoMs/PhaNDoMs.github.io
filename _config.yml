@@ -1,5 +1,5 @@
 name: PhaNDoMs Security Blog
-author: PhaNDoMs
+author: Herring Cove
 baseurl: /
 description: WriteUps, Docs and other blogposts 
 github: http://www.github.com/PhaNDoMs
@@ -13,7 +13,7 @@ disqus: diqus-username
 ##Make sure to edit the above fields, especially for disqus.
 
 
-highlighter: pygments
+highlighter: rouge
 markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
