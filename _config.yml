@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-name: PhaNDoMs Security Blog
+name: "PhaNDoMs Security Blog"
 author: PhaNDoMs
 baseurl: /
 description: My WriteUps and other blogposts
@@ -30,8 +30,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-=======
-theme: jekyll-theme-slate
-title: PhaNDoMs Security Blog
-description: WriteUps, Docs and other blogposts 
->>>>>>> parent of 91a6352... f
