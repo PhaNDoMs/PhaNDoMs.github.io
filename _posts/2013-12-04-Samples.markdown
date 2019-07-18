@@ -1,6 +1,7 @@
 ---
 title: Samples
-categories: PenTestIT Lab V12
+categories: CTF
+tags: "Test Lab by PenTestIT"
 ---
 
 # Samples
