@@ -1,11 +1,11 @@
 <<<<<<< HEAD
-name: "PhaNDoMs Security Blog"
-author: PhaNDoMs
+name: Herring Cove
+author: Herring Cove
 baseurl: /
-description: My WriteUps and other blogposts
-github: http://www.github.com/PhaNDoMs
-twitter: http://www.twitter.com/PhaNDoMs_EU
-#facebook: http://www.facebook.comdomi.schlegel
+description: theme for jekyll
+github: http://www.github.com/arnp
+twitter: http://www.twitter.com/
+facebook: http://www.facebook.com
 linkedin: http://www.linkedin.com
 email: rnpatel[at]me.com
 location: 42°2'16"N   70°12'47"W
@@ -14,7 +14,7 @@ disqus: diqus-username
 ##Make sure to edit the above fields, especially for disqus.
 
 
-highlighter: rouge
+highlighter: pygments
 markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
@@ -30,3 +30,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+=======
+theme: jekyll-theme-slate
+title: PhaNDoMs Security Blog
+description: WriteUps, Docs and other blogposts 
+>>>>>>> parent of 91a6352... f
