@@ -1,10 +1,10 @@
-name: Domi's Security Blog
+name: Domi's InfoSec Blog
 author: Domi Schlegel
 baseurl: /
-description: My Security Blog
+description: My InfoSec Blog
 github: http://www.github.com/domischlegel
 twitter: http://www.twitter.com/PhaNDoMs_EU
-#facebook: http://www.facebook.com
+facebook: http://www.facebook.com/domi.schlegel
 linkedin: https://www.linkedin.com/in/domischlegel/
 email: domi.schlegel@hotmail.com
 disqus: diqus-username
