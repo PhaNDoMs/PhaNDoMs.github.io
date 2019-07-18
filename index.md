@@ -4,5 +4,5 @@ Welcome to my GitHub Page! Here you can find my published WriteUps (for CTFs, Vu
 
 ## Labs
 ### PenTestIT Test lab
-[Testpage](/testpage)
+[Testpage](/testpage.md)
 
