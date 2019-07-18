@@ -4,11 +4,8 @@ title: All Posts
 <div class="container">
   <div id="article">
   <h1>Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-    <li><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time></span></span></li>
-    {% endfor %}
-	
+  <ul class="posts">	
+	<h2>By Category</h2>
 	{% for category in site.categories %}
 	{% capture category_name %}{{ category | first }}{% endcapture %}
       <li>
@@ -20,5 +17,11 @@ title: All Posts
         </span>
       </li>
 	{% endfor %}
+	
+	<h2>By Date</h2>
+  
+    {% for post in site.posts %}
+    <li><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time></span></span></li>
+    {% endfor %}
   </ul>
 </div>
