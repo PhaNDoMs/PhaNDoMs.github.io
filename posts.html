@@ -9,14 +9,14 @@ title: All Posts
     <li><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time></span></span></li>
     {% endfor %}
 	
-	{% for post in site.categories.CATEGORY %}
+	{% for category in site.categories %}
+	{% capture category_name %}{{ category | first }}{% endcapture %}
       <li>
         <span>
-          <h4>
-            <a>
-              {{ site.categories.CATEGORY }}
-            </a>
-          </h4>
+          <h4> {{ category_name }} </h4>
+		  {% for post in site.categories[category_name] %}
+		  <h5> <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h5>
+		  {% endfor %}
         </span>
       </li>
 	{% endfor %}
