@@ -8,5 +8,17 @@ title: All Posts
     {% for post in site.posts %}
     <li><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time></span></span></li>
     {% endfor %}
+	
+	{% for post in site.categories.CATEGORY}
+      <li>
+        <span>
+          <h4>
+            <a>
+              {{ site.categories.CATEGORY }}
+            </a>
+          </h4>
+        </span>
+      </li>
+	{% endfor %}
   </ul>
 </div>
