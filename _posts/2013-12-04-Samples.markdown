@@ -1,6 +1,6 @@
 ---
 title: Samples
-categories: CTF
+categories: "CTF WriteUps"
 tags: "Test Lab by PenTestIT"
 ---
 

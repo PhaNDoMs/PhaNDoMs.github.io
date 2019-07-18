@@ -7,18 +7,14 @@ title: Posts
   <ul class="posts">	
 	{% for category in site.categories %}
 	{% capture category_name %}{{ category | first }}{% endcapture %}
-	<li>
-		<span>
-			<h3> {{ category_name }} </h3>
-		</span>
-	</li>
-		{% for post in site.categories[category_name] %}
+	<h3> {{ category_name }} </h3>
+	{% for post in site.categories[category_name] %}
 		<li>
 			<span>
 				<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time>
 			</span>
 		</li>
-		{% endfor %}   
+	{% endfor %}   
 	{% endfor %}
 	</ul>
 </div>
