@@ -1,13 +1,12 @@
-name: PhaNDoMs Security Blog
-author: Herring Cove
+name: Domi's Security Blog
+author: Domi Schlegel
 baseurl: /
 description: My Security Blog
-github: http://www.github.com/PhaNDoMs
+github: http://www.github.com/domischlegel
 twitter: http://www.twitter.com/PhaNDoMs_EU
 #facebook: http://www.facebook.com
-linkedin: http://www.linkedin.com
-email: phandoms.business@hotmail.com
-location: 42°2'16"N   70°12'47"W
+linkedin: https://www.linkedin.com/in/domischlegel/
+email: domi.schlegel@hotmail.com
 disqus: diqus-username
 
 ##Make sure to edit the above fields, especially for disqus.
