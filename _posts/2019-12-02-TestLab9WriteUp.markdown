@@ -12,9 +12,13 @@ So, Test Lab 9 was probably the first real CTF/Hacking lab that I participated i
 # WriteUp
 ## 1. Bypass WAF
 Heartbleed 192.168.101.8:443
+
 found /var/www/html/_old_backup_2010/old_proxy_users
+
 path https://192.168.101.8/_old_backup_2010/old_proxy_users
+
 table contains users to bypass proxy and -> token found
+
 md5 (apr) hashes, with hashcat dehashed
 
 
