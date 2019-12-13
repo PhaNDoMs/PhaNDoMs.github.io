@@ -13,7 +13,7 @@ disqus: diqus-username
 
 
 highlighter: rouge
-markdown: redcarpet
+markdown: GFM
 redcarpet:
   extensions: ["tables"]
 
