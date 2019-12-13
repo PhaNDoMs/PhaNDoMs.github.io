@@ -9,15 +9,11 @@ title: Posts
 		{% capture category_name %}{{ category | first }}{% endcapture %}
 		<h3> {{ category_name }} </h3>
 		{% for post in site.categories[category_name] %}
-			{% capture tags_name %}{{ tags | first }}{% endcapture %}
-			<h4> {{ tags_name }} </h4>
-			{% for post in site.tags[tags_name] %}
-	  			<li>
-				<span>
-					<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time>
-				</span>
-				</li>
-	  		{% endfor %}   
+	  		<li>
+			<span>
+			<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</h4></time>
+			</span>
+			</li>
 		{% endfor %}   
 	{% endfor %}
 </ul>
