@@ -7,7 +7,6 @@ layout: default
     <small>
       &nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}}
        Categories:
-<div class="post-categories">
   {% if post %}
     {% assign categories = post.categories %}
   {% else %}
@@ -17,7 +16,6 @@ layout: default
   <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
-</div>
     </small>
   </p> <hr/>
   <div class="post">
