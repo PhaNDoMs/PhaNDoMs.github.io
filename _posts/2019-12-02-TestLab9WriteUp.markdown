@@ -1,6 +1,6 @@
 ---
 title: Pentestit Test Lab v9 WriteUp
-categories: ['CTF Writeup']
+categories: ['CTF WriteUp']
 tags: ['Hacking']
 ---
 
