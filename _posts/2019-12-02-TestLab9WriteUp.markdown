@@ -1,5 +1,5 @@
 ---
-title: PenTestIT Test Lab 9 WriteUp
+title: Pentestit Test Lab v9 WriteUp
 categories: ['CTF WriteUps']
 tags: 'PenTestIT'
 ---
