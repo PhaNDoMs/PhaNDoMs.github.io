@@ -9,22 +9,33 @@ linkedin: https://www.linkedin.com/in/domischlegel/
 email: domi.schlegel@hotmail.com
 disqus: diqus-username
 
-##Make sure to edit the above fields, especially for disqus.
-
-
 highlighter: rouge
 markdown: GFM
-redcarpet:
-  extensions: ["tables"]
 
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+  
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
+      read_time: true
+      comments: true
+      share: true
+      related: true
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+      read_time: true
+      comments: true
+      share: true
+      related: true
