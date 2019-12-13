@@ -1,7 +1,7 @@
 ---
 title: Pentestit Test Lab v9 WriteUp
-categories: ['CTF WriteUps']
-tags: 'Pentestit Test Lab v9'
+categories: ['Pentestit Test Lab v9']
+tags: ['CTF Writeup']
 ---
 
 # Introduction
