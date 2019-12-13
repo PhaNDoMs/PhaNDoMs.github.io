@@ -1,7 +1,5 @@
 ---
 title: Samples
-categories: ['CTF WriteUps']
-tags: 'Test Lab by PenTestIT'
 ---
 
 # Samples
