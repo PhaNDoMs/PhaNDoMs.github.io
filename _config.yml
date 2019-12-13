@@ -12,30 +12,14 @@ disqus: diqus-username
 highlighter: rouge
 markdown: GFM
 
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-  
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
-      read_time: true
-      comments: true
-      share: true
-      related: true
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      read_time: true
-      comments: true
-      share: true
-      related: true
