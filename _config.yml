@@ -28,3 +28,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+plugins:
+  - jekyll-archives
