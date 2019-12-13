@@ -1,10 +1,10 @@
 ---
 title: PenTestIT Test Lab 9 WriteUp
 categories: ['CTF WriteUps']
-tags: 'Test Lab by PenTestIT'
+tags: 'PenTestIT'
 ---
 
-# PenTestIT Test Lab 9 WriteUp
+# Pentestit Test Lab v9 WriteUp
 
 # Introduction
 So, Test Lab 9 was probably the first real CTF/Hacking lab that I participated in. With no expectation and not much knowledge I decided to give it a try. In the end I got all tokens, with a lot of help from people from the telegram chat. This is my "raw" writeup, that I wrote back then. To be honest I dont wanna spend the time to brush this up so im just gonna post it like it is. Have fun!
